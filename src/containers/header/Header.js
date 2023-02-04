@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png'; 
-import ai from '../../assets/ai.png';
+import ai from '../../assets/ai (3).png';
 const Header = () => {
   return (
     <div className='section__padding gpt3__header' style={{paddingTop:'10rem'}} id='home'>

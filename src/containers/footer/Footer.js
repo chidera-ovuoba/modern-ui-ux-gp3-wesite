@@ -22,9 +22,9 @@ const Footer = () => {
         <div className='gpt3__footer-links-container'>
           {
             footerLinks.map(({name,links}) => (
-              <div className='gpt3__footer-links_div'>
+              <div className='gpt3__footer-links_div' key={name}>
                 <h4>{name}</h4>
-              {links.map((link) => (<p>{link}</p>))}
+              {links.map((link) => (<p key={link}>{link}</p>))}
               </div>
             ))
         }
